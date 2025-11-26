@@ -1,0 +1,57 @@
+{
+  "evaluation_summary": {
+    "total_samples": 120,
+    "fake_samples": 56,
+    "real_samples": 64,
+    "optimal_threshold": 0.5,
+    "optimal_accuracy": 0.8833333333333333,
+    "optimal_discrimination": 0.7678571428571429
+  },
+  "threshold_results": {
+    "0.4": {
+      "fake_detection_rate": 0.8928571428571429,
+      "real_detection_rate": 0.15625,
+      "discrimination_power": 0.7366071428571429,
+      "p_value": 1.2261526702709918e-21,
+      "accuracy": 0.8666666666666667,
+      "fake_samples": 56,
+      "real_samples": 64
+    },
+    "0.5": {
+      "fake_detection_rate": 0.8928571428571429,
+      "real_detection_rate": 0.125,
+      "discrimination_power": 0.7678571428571429,
+      "p_value": 1.903348600245442e-24,
+      "accuracy": 0.8833333333333333,
+      "fake_samples": 56,
+      "real_samples": 64
+    },
+    "0.6": {
+      "fake_detection_rate": 0.875,
+      "real_detection_rate": 0.109375,
+      "discrimination_power": 0.765625,
+      "p_value": 2.3459528172174967e-24,
+      "accuracy": 0.8833333333333333,
+      "fake_samples": 56,
+      "real_samples": 64
+    },
+    "0.7": {
+      "fake_detection_rate": 0.8571428571428571,
+      "real_detection_rate": 0.109375,
+      "discrimination_power": 0.7477678571428571,
+      "p_value": 8.294497969454672e-23,
+      "accuracy": 0.875,
+      "fake_samples": 56,
+      "real_samples": 64
+    },
+    "0.8": {
+      "fake_detection_rate": 0.8571428571428571,
+      "real_detection_rate": 0.09375,
+      "discrimination_power": 0.7633928571428571,
+      "p_value": 2.3944390188735592e-24,
+      "accuracy": 0.8833333333333333,
+      "fake_samples": 56,
+      "real_samples": 64
+    }
+  }
+}
