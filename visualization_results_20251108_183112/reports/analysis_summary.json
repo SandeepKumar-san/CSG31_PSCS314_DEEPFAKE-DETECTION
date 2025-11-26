@@ -1,0 +1,198 @@
+{
+  "analysis_timestamp": "2025-11-08T18:33:04.612789",
+  "total_samples_analyzed": 10,
+  "overall_accuracy": 0.9,
+  "fake_samples": 5,
+  "real_samples": 5,
+  "fake_detection_accuracy": 1.0,
+  "real_detection_accuracy": 0.8,
+  "performance_metrics": {
+    "roc_auc": 0.9372209821428572,
+    "pr_auc": 0.9338358570949024,
+    "temporal_consistency": 0.6496341485593681
+  },
+  "system_info": {
+    "device": "NVIDIA GeForce GTX 1650",
+    "cuda_available": true,
+    "cpu_count": 12,
+    "memory_gb": 15.675918579101562
+  },
+  "detailed_results": [
+    {
+      "sample_id": "FAKE_1",
+      "true_label": "FAKE",
+      "predicted_label": "FAKE",
+      "prediction_score": 0.9802626967430115,
+      "is_correct": true,
+      "confidence": 0.960525393486023,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "mouth",
+        "eyes"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\fake_videos\\FAKE_1_analysis.png"
+    },
+    {
+      "sample_id": "FAKE_2",
+      "true_label": "FAKE",
+      "predicted_label": "FAKE",
+      "prediction_score": 0.99443519115448,
+      "is_correct": true,
+      "confidence": 0.98887038230896,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "mouth",
+        "eyes"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\fake_videos\\FAKE_2_analysis.png"
+    },
+    {
+      "sample_id": "FAKE_3",
+      "true_label": "FAKE",
+      "predicted_label": "FAKE",
+      "prediction_score": 0.9754559397697449,
+      "is_correct": true,
+      "confidence": 0.9509118795394897,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "eyes",
+        "mouth"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\fake_videos\\FAKE_3_analysis.png"
+    },
+    {
+      "sample_id": "FAKE_4",
+      "true_label": "FAKE",
+      "predicted_label": "FAKE",
+      "prediction_score": 0.9979807734489441,
+      "is_correct": true,
+      "confidence": 0.9959615468978882,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "mouth",
+        "eyes"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\fake_videos\\FAKE_4_analysis.png"
+    },
+    {
+      "sample_id": "FAKE_5",
+      "true_label": "FAKE",
+      "predicted_label": "FAKE",
+      "prediction_score": 0.9777259230613708,
+      "is_correct": true,
+      "confidence": 0.9554518461227417,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "mouth",
+        "eyes"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\fake_videos\\FAKE_5_analysis.png"
+    },
+    {
+      "sample_id": "REAL_1",
+      "true_label": "REAL",
+      "predicted_label": "FAKE",
+      "prediction_score": 0.5881199240684509,
+      "is_correct": false,
+      "confidence": 0.17623984813690186,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "mouth",
+        "eyes"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\real_videos\\REAL_1_analysis.png"
+    },
+    {
+      "sample_id": "REAL_2",
+      "true_label": "REAL",
+      "predicted_label": "REAL",
+      "prediction_score": 0.003208528971299529,
+      "is_correct": true,
+      "confidence": 0.9935829420574009,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "mouth",
+        "eyes"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\real_videos\\REAL_2_analysis.png"
+    },
+    {
+      "sample_id": "REAL_3",
+      "true_label": "REAL",
+      "predicted_label": "REAL",
+      "prediction_score": 0.04412982985377312,
+      "is_correct": true,
+      "confidence": 0.9117403402924538,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "mouth",
+        "eyes"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\real_videos\\REAL_3_analysis.png"
+    },
+    {
+      "sample_id": "REAL_4",
+      "true_label": "REAL",
+      "predicted_label": "REAL",
+      "prediction_score": 0.0019789000507444143,
+      "is_correct": true,
+      "confidence": 0.9960421998985112,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "mouth",
+        "eyes"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\real_videos\\REAL_4_analysis.png"
+    },
+    {
+      "sample_id": "REAL_5",
+      "true_label": "REAL",
+      "predicted_label": "REAL",
+      "prediction_score": 0.0136871924623847,
+      "is_correct": true,
+      "confidence": 0.9726256150752306,
+      "suspicious_regions": 3,
+      "regions_detected": [
+        "nose",
+        "mouth",
+        "eyes"
+      ],
+      "file_path": "s:/Capstone/Capstone/visualization_results_20251108_183112\\real_videos\\REAL_5_analysis.png"
+    }
+  ],
+  "temporal_analysis": [
+    {
+      "sample_id": "FAKE_1",
+      "consistency": 0.982327859554366
+    },
+    {
+      "sample_id": "FAKE_2",
+      "consistency": 0.9912367488160573
+    },
+    {
+      "sample_id": "REAL_1",
+      "consistency": 0.5457595194120732
+    },
+    {
+      "sample_id": "REAL_2",
+      "consistency": 0.07921246645497548
+    },
+    {
+  "avg_model_only_time_s": 0.044,
+  "std_model_only_time_s": 0.038,
+  "avg_end_to_end_time_s": 0.839,
+  "std_end_to_end_time_s": 0.211,
+  "timing_notes": "End-to-end time includes video decoding, MTCNN face detection, normalization, and model inference. Model-only time measured on cached 5-frame tensors using GPU (GTX 1650, CUDA 11.8)."
+    }
+
+  ]
+}

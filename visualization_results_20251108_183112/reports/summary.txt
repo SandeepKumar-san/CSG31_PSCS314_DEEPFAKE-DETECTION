@@ -1,0 +1,82 @@
+
+COMPREHENSIVE DEEPFAKE DETECTION ANALYSIS REPORT
+Generated: 2025-11-08 18:33:04
+================================================================================
+
+OVERALL PERFORMANCE METRICS:
+� Total Samples Analyzed: 10
+� Overall Accuracy: 90.0%
+� Correct Predictions: 9/10
+� ROC-AUC Score: 0.937
+� Precision-Recall AUC: 0.934
+� Temporal Consistency: 0.650
+
+CLASS-WISE PERFORMANCE:
+� FAKE Videos: 5 samples
+  - Detection Accuracy: 100.0%
+  - Correctly Identified: 5/5
+  - Average Confidence: 0.970
+
+� REAL Videos: 5 samples  
+  - Detection Accuracy: 80.0%
+  - Correctly Identified: 4/5
+  - Average Confidence: 0.810
+
+SYSTEM INFORMATION:
+� Device: NVIDIA GeForce GTX 1650
+� CUDA Available: True
+� CPU Cores: 12
+� System Memory: 15.7 GB
+
+SUSPICIOUS REGIONS ANALYSIS:
+Most Frequently Detected Suspicious Regions:
+� NOSE: 10 detections (100.0% of samples)
+� MOUTH: 10 detections (100.0% of samples)
+� EYES: 10 detections (100.0% of samples)
+
+
+TEMPORAL ANALYSIS RESULTS:
+� FAKE_1: Consistency Score = 0.982
+� FAKE_2: Consistency Score = 0.991
+� REAL_1: Consistency Score = 0.546
+� REAL_2: Consistency Score = 0.079
+
+
+GENERATED VISUALIZATIONS:
+� Individual Analysis: 10 detailed video analyses
+� Training Metrics: training_metrics.png
+� Performance Dashboard: performance_dashboard.png
+� Complete Dataset Analysis: complete_dataset_confusion_matrix.png
+� Comparative Analysis: comparative_analysis.png
+� Dataset Statistics: dataset_statistics.png
+� Performance Benchmark: performance_benchmark.png
+� Temporal Analysis: temporal_analysis_*.png files
+� Interactive Dashboard: interactive_dashboard.html
+� Comprehensive Reports: JSON and text summaries
+
+FOLDER STRUCTURE:
+� FAKE Video Analysis: s:/Capstone/Capstone/visualization_results_20251108_183112\fake_videos
+� REAL Video Analysis: s:/Capstone/Capstone/visualization_results_20251108_183112\real_videos
+� Reports & Metrics: s:/Capstone/Capstone/visualization_results_20251108_183112\reports
+� Comparative Studies: s:/Capstone/Capstone/visualization_results_20251108_183112\comparisons
+
+INTERPRETATION GUIDE:
+� Red/Hot Colors in Heatmaps = High Model Attention (Suspicious)
+� Blue/Cool Colors = Low Attention (Natural Appearance)
+� Numbered Boxes = Detected Suspicious Regions
+� Confidence > 80% = High Reliability Prediction
+� ROC-AUC > 0.9 = Excellent Performance
+� Temporal Consistency > 0.8 = Stable Predictions
+
+RECOMMendations:
+� Focus on samples with low temporal consistency for further analysis
+� Investigate regions with high attention but incorrect predictions
+� Consider ensemble methods for borderline confidence scores
+� Monitor processing time for real-time deployment considerations
+
+Created using end_to_end_timing.py
+� "avg_model_only_time_s": 0.044,
+�"std_model_only_time_s": 0.038,
+� "avg_end_to_end_time_s": 0.839,
+�"std_end_to_end_time_s": 0.211,
+�"timing_notes": "End-to-end time includes video decoding, MTCNN face detection, normalization, and model inference. Model-only time measured on cached 5-frame tensors using GPU (GTX 1650, CUDA 11.8)."
